@@ -1,0 +1,53 @@
+[10-Oct-2018 07:02:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Call to undefin...', 'UTF-8', 'ASCII')
+#1 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Call to undefin...', 'utf8', 'ASCII')
+#2 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Call to undefin...', 75)
+#3 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/supergized/public_html/laravel/vendor/laravel/framework/src/Illuminate/F in /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[10-Oct-2018 07:02:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Uncaught Error:...', 'UTF-8', 'ASCII')
+#1 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Uncaught Error:...', 'utf8', 'ASCII')
+#2 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Uncaught Error:...', 75)
+#3 /home/supergized/public_html/laravel/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalErrorException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/supergized/public_html/laravel/vendor/laravel/framework/src/Illuminate/F in /home/supergized/public_html/laravel/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[10-Oct-2018 07:13:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/supergized/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:493
+Stack trace:
+#0 /home/supergized/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Http\Request::createFromBase(Obj in /home/supergized/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 493
+[10-Oct-2018 08:29:55 UTC] PHP Parse error:  syntax error, unexpected 'backup' (T_STRING), expecting variable (T_VARIABLE) in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 25
+[10-Oct-2018 08:30:20 UTC] PHP Parse error:  syntax error, unexpected 'backup' (T_STRING), expecting variable (T_VARIABLE) in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 25
+[10-Oct-2018 08:38:29 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Backup' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 30
+[10-Oct-2018 08:38:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Backup' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 30
+[10-Oct-2018 08:46:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Config' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 29
+[10-Oct-2018 09:09:12 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 63
+[10-Oct-2018 09:09:57 UTC] PHP Fatal error:  Class 'BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 09:10:00 UTC] PHP Fatal error:  Class 'BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 09:13:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Symfony\Component\Process\Process' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 09:14:27 UTC] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 09:16:16 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Symfony\Component\Process\Process' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:42:25 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Symfony\Component\Process\Process' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:44:20 UTC] PHP Fatal error:  Undefined class constant 'Process' in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:44:22 UTC] PHP Fatal error:  Undefined class constant 'Process' in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:49:36 UTC] PHP Fatal error:  Undefined class constant 'Process' in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:49:46 UTC] PHP Fatal error:  Call to undefined method Cornford\Backup\Backup::BackupProcess() in /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 221
+[10-Oct-2018 13:49:49 UTC] PHP Fatal error:  Call to undefined method Cornford\Backup\Backup::BackupProcess() in /home/supergized/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 221
+[10-Oct-2018 13:51:54 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:51:56 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:51:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:52:15 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 65
+[10-Oct-2018 13:53:29 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 71
+[10-Oct-2018 13:53:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 71
+[10-Oct-2018 13:53:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 63
+[10-Oct-2018 13:54:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupEngineMysql' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 63
+[10-Oct-2018 14:10:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BackupProcess' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 66
+[10-Oct-2018 14:11:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Symfony\Component\Process\Process' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 66
+[10-Oct-2018 14:45:27 UTC] PHP Parse error:  syntax error, unexpected 'default' (T_DEFAULT), expecting ']' in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 69
+[10-Oct-2018 15:39:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Carbon\Carbon' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 63
+[10-Oct-2018 15:41:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\ZipArchive' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 64
+[10-Oct-2018 16:00:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Response' not found in /home/supergized/public_html/app/Http/Controllers/BackupController.php on line 85
